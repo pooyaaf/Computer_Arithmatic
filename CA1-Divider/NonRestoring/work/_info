@@ -1,0 +1,347 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dG:/intelfpga
+vAddSub
+!s110 1636097251
+!i10b 1
+!s100 m<1gm>NJCEdYE7GV=6LH11
+Z0 !s11b Dg1SIo80bB@j0V0VzS_@n1
+Ih[W24]gg=SH_I3J;ACePI3
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dF:/git projects/CA/1/Computer_Arithmatic/CA1-Divider/NonRestoring
+w1636096604
+8F:/git projects/CA/1/Computer_Arithmatic/CA1-Divider/NonRestoring/AddSub.v
+FF:/git projects/CA/1/Computer_Arithmatic/CA1-Divider/NonRestoring/AddSub.v
+!i122 82
+L0 2 21
+Z3 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z4 !s108 1636097251.000000
+!s107 F:/git projects/CA/1/Computer_Arithmatic/CA1-Divider/NonRestoring/AddSub.v|
+!s90 -reportprogress|300|-work|work|-stats=none|F:/git projects/CA/1/Computer_Arithmatic/CA1-Divider/NonRestoring/AddSub.v|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+n@add@sub
+vAddSubTest
+Z7 !s110 1636097252
+!i10b 1
+!s100 e51EJ_;eJdH;`1O463Fe:1
+R0
+Id3LMN13U<D0W9X9zH>fC@1
+R1
+R2
+w1636096855
+8F:/git projects/CA/1/Computer_Arithmatic/CA1-Divider/NonRestoring/AddSubTB.v
+FF:/git projects/CA/1/Computer_Arithmatic/CA1-Divider/NonRestoring/AddSubTB.v
+!i122 83
+L0 2 12
+R3
+r1
+!s85 0
+31
+R4
+!s107 F:/git projects/CA/1/Computer_Arithmatic/CA1-Divider/NonRestoring/AddSubTB.v|
+!s90 -reportprogress|300|-work|work|-stats=none|F:/git projects/CA/1/Computer_Arithmatic/CA1-Divider/NonRestoring/AddSubTB.v|
+!i113 1
+R5
+R6
+n@add@sub@test
+vController
+R7
+!i10b 1
+!s100 egY=heIclI`m0ZUz_@Y:B1
+R0
+I03]AK<S2N1N6W^eC[BjQY3
+R1
+R2
+w1636056122
+8F:/git projects/CA/1/Computer_Arithmatic/CA1-Divider/NonRestoring/Controller.v
+FF:/git projects/CA/1/Computer_Arithmatic/CA1-Divider/NonRestoring/Controller.v
+!i122 84
+L0 3 59
+R3
+r1
+!s85 0
+31
+Z8 !s108 1636097252.000000
+!s107 F:/git projects/CA/1/Computer_Arithmatic/CA1-Divider/NonRestoring/Controller.v|
+!s90 -reportprogress|300|-work|work|-stats=none|F:/git projects/CA/1/Computer_Arithmatic/CA1-Divider/NonRestoring/Controller.v|
+!i113 1
+R5
+R6
+n@controller
+vCounter
+R7
+!i10b 1
+!s100 3LTHhVKH@_SOSeT`[7Ofz1
+R0
+IWFLCUNP]1Qmak9IYkI^U_1
+R1
+R2
+w1636046124
+8F:/git projects/CA/1/Computer_Arithmatic/CA1-Divider/NonRestoring/Counter.v
+FF:/git projects/CA/1/Computer_Arithmatic/CA1-Divider/NonRestoring/Counter.v
+!i122 85
+L0 2 19
+R3
+r1
+!s85 0
+31
+R8
+!s107 F:/git projects/CA/1/Computer_Arithmatic/CA1-Divider/NonRestoring/Counter.v|
+!s90 -reportprogress|300|-work|work|-stats=none|F:/git projects/CA/1/Computer_Arithmatic/CA1-Divider/NonRestoring/Counter.v|
+!i113 1
+R5
+R6
+n@counter
+vCounterTB
+R7
+!i10b 1
+!s100 3=mKegF5G7Bb:a;4LVm]30
+R0
+I]0TNT9hJT017U5<eTzliJ1
+R1
+R2
+Z9 w1635443620
+8F:/git projects/CA/1/Computer_Arithmatic/CA1-Divider/NonRestoring/CounterTB.v
+FF:/git projects/CA/1/Computer_Arithmatic/CA1-Divider/NonRestoring/CounterTB.v
+!i122 86
+Z10 L0 2 15
+R3
+r1
+!s85 0
+31
+R8
+!s107 F:/git projects/CA/1/Computer_Arithmatic/CA1-Divider/NonRestoring/CounterTB.v|
+!s90 -reportprogress|300|-work|work|-stats=none|F:/git projects/CA/1/Computer_Arithmatic/CA1-Divider/NonRestoring/CounterTB.v|
+!i113 1
+R5
+R6
+n@counter@t@b
+vDataPath
+R7
+!i10b 1
+!s100 1dHD@[fCb9hQ2=HdL;1nD1
+R0
+I=RORYNieT4QEkH[blLHXV1
+R1
+R2
+w1636096954
+8F:/git projects/CA/1/Computer_Arithmatic/CA1-Divider/NonRestoring/Datapath.v
+FF:/git projects/CA/1/Computer_Arithmatic/CA1-Divider/NonRestoring/Datapath.v
+!i122 87
+L0 2 28
+R3
+r1
+!s85 0
+31
+R8
+!s107 F:/git projects/CA/1/Computer_Arithmatic/CA1-Divider/NonRestoring/Datapath.v|
+!s90 -reportprogress|300|-work|work|-stats=none|F:/git projects/CA/1/Computer_Arithmatic/CA1-Divider/NonRestoring/Datapath.v|
+!i113 1
+R5
+R6
+n@data@path
+vDivider
+Z11 !s110 1636097253
+!i10b 1
+!s100 2zCT3^NkhP2j54@_MXF4m2
+R0
+IjVk?:<oXbjLE1U4Scb`8h2
+R1
+R2
+w1636053747
+8F:/git projects/CA/1/Computer_Arithmatic/CA1-Divider/NonRestoring/Divider.v
+FF:/git projects/CA/1/Computer_Arithmatic/CA1-Divider/NonRestoring/Divider.v
+!i122 88
+Z12 L0 2 10
+R3
+r1
+!s85 0
+31
+R8
+!s107 F:/git projects/CA/1/Computer_Arithmatic/CA1-Divider/NonRestoring/Divider.v|
+!s90 -reportprogress|300|-work|work|-stats=none|F:/git projects/CA/1/Computer_Arithmatic/CA1-Divider/NonRestoring/Divider.v|
+!i113 1
+R5
+R6
+n@divider
+vDividerTB
+R11
+!i10b 1
+!s100 P]P`>KCl82ARVdJzTbTAi2
+R0
+Ia3NXQ7U[2f]=HP@Z@BHb<1
+R1
+R2
+w1636097114
+8F:/git projects/CA/1/Computer_Arithmatic/CA1-Divider/NonRestoring/DividerTB.v
+FF:/git projects/CA/1/Computer_Arithmatic/CA1-Divider/NonRestoring/DividerTB.v
+!i122 89
+L0 2 45
+R3
+r1
+!s85 0
+31
+Z13 !s108 1636097253.000000
+!s107 F:/git projects/CA/1/Computer_Arithmatic/CA1-Divider/NonRestoring/DividerTB.v|
+!s90 -reportprogress|300|-work|work|-stats=none|F:/git projects/CA/1/Computer_Arithmatic/CA1-Divider/NonRestoring/DividerTB.v|
+!i113 1
+R5
+R6
+n@divider@t@b
+vFullAdder
+R11
+!i10b 1
+!s100 O;O5IgA9<^X0<WWHd8Hh[3
+R0
+In3HG3cg4cU_aAhG2Z>XJm3
+R1
+R2
+R9
+8F:/git projects/CA/1/Computer_Arithmatic/CA1-Divider/NonRestoring/FullAdder.v
+FF:/git projects/CA/1/Computer_Arithmatic/CA1-Divider/NonRestoring/FullAdder.v
+!i122 90
+R12
+R3
+r1
+!s85 0
+31
+R13
+!s107 F:/git projects/CA/1/Computer_Arithmatic/CA1-Divider/NonRestoring/FullAdder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|F:/git projects/CA/1/Computer_Arithmatic/CA1-Divider/NonRestoring/FullAdder.v|
+!i113 1
+R5
+R6
+n@full@adder
+vFullAdderTB
+R11
+!i10b 1
+!s100 =>9>X3^1U2CVh3Of7B[>01
+R0
+I>QJSbOm9cDD=nkQYfg?0]1
+R1
+R2
+R9
+8F:/git projects/CA/1/Computer_Arithmatic/CA1-Divider/NonRestoring/FullAdderTB.v
+FF:/git projects/CA/1/Computer_Arithmatic/CA1-Divider/NonRestoring/FullAdderTB.v
+!i122 91
+R10
+R3
+r1
+!s85 0
+31
+R13
+!s107 F:/git projects/CA/1/Computer_Arithmatic/CA1-Divider/NonRestoring/FullAdderTB.v|
+!s90 -reportprogress|300|-work|work|-stats=none|F:/git projects/CA/1/Computer_Arithmatic/CA1-Divider/NonRestoring/FullAdderTB.v|
+!i113 1
+R5
+R6
+n@full@adder@t@b
+vInputChecker
+R11
+!i10b 1
+!s100 dgHNNhNf>5SF[K`k?LCP[3
+R0
+IJRbl6j3CGd`3;=dJV4kbC0
+R1
+R2
+w1636056138
+8F:/git projects/CA/1/Computer_Arithmatic/CA1-Divider/NonRestoring/InputChecker.v
+FF:/git projects/CA/1/Computer_Arithmatic/CA1-Divider/NonRestoring/InputChecker.v
+!i122 92
+L0 2 18
+R3
+r1
+!s85 0
+31
+R13
+!s107 F:/git projects/CA/1/Computer_Arithmatic/CA1-Divider/NonRestoring/InputChecker.v|
+!s90 -reportprogress|300|-work|work|-stats=none|F:/git projects/CA/1/Computer_Arithmatic/CA1-Divider/NonRestoring/InputChecker.v|
+!i113 1
+R5
+R6
+n@input@checker
+vMux
+Z14 !s110 1636097254
+!i10b 1
+!s100 Vbj3_7Cg`hB?GBDPah7X53
+R0
+IKUSfz5269EN8Onmb3zU1_1
+R1
+R2
+w1636014864
+8F:/git projects/CA/1/Computer_Arithmatic/CA1-Divider/NonRestoring/Mux.v
+FF:/git projects/CA/1/Computer_Arithmatic/CA1-Divider/NonRestoring/Mux.v
+!i122 93
+L0 2 8
+R3
+r1
+!s85 0
+31
+R13
+!s107 F:/git projects/CA/1/Computer_Arithmatic/CA1-Divider/NonRestoring/Mux.v|
+!s90 -reportprogress|300|-work|work|-stats=none|F:/git projects/CA/1/Computer_Arithmatic/CA1-Divider/NonRestoring/Mux.v|
+!i113 1
+R5
+R6
+n@mux
+vShiftRegister
+R14
+!i10b 1
+!s100 HY5@nUnj<4Kho7INbnN>`3
+R0
+Iocn]2gX`CU`@3Zn8zLUTQ0
+R1
+R2
+w1636038629
+8F:/git projects/CA/1/Computer_Arithmatic/CA1-Divider/NonRestoring/ShiftRegister.v
+FF:/git projects/CA/1/Computer_Arithmatic/CA1-Divider/NonRestoring/ShiftRegister.v
+!i122 94
+L0 2 16
+R3
+r1
+!s85 0
+31
+Z15 !s108 1636097254.000000
+!s107 F:/git projects/CA/1/Computer_Arithmatic/CA1-Divider/NonRestoring/ShiftRegister.v|
+!s90 -reportprogress|300|-work|work|-stats=none|F:/git projects/CA/1/Computer_Arithmatic/CA1-Divider/NonRestoring/ShiftRegister.v|
+!i113 1
+R5
+R6
+n@shift@register
+vShiftRegTB
+R14
+!i10b 1
+!s100 PK82NZnKh[^Ddim;]1Jg?2
+R0
+IaLKmkQD4P?zd4^e3Mn4zK1
+R1
+R2
+R9
+8F:/git projects/CA/1/Computer_Arithmatic/CA1-Divider/NonRestoring/ShiftRegisterTB.v
+FF:/git projects/CA/1/Computer_Arithmatic/CA1-Divider/NonRestoring/ShiftRegisterTB.v
+!i122 95
+L0 2 25
+R3
+r1
+!s85 0
+31
+R15
+!s107 F:/git projects/CA/1/Computer_Arithmatic/CA1-Divider/NonRestoring/ShiftRegisterTB.v|
+!s90 -reportprogress|300|-work|work|-stats=none|F:/git projects/CA/1/Computer_Arithmatic/CA1-Divider/NonRestoring/ShiftRegisterTB.v|
+!i113 1
+R5
+R6
+n@shift@reg@t@b
