@@ -1,0 +1,26 @@
+module ALU (a,
+            b,
+            operation,
+            alu_out,
+            zero);
+    input [31:0] a, b;
+    input [2:0] operation;
+    output logic [31:0] alu_out;
+    output zero;
+    wire [31:0] subtract;
+
+    assign subtract = a - b;
+
+    always@(operation) begin // operation is not changed
+	case(operation) 
+		3'b010 : alu_out = (a + b); //add
+		3'b110 : alu_out = a - b; //sub
+		3'b111 : alu_out = ((subtract[31]) ? 32'd1: 32'd0); //branch and slt(i)
+		default: alu_out = 32'd0;
+	endcase
+		
+    end
+    
+    assign zero = (alu_out == 32'd0) ? 1'b1 : 1'b0;
+    
+endmodule

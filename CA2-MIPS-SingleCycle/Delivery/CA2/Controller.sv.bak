@@ -1,0 +1,77 @@
+module Controller (opcode,
+                   func,
+                   zero,
+                   RegDst,
+                   MemtoReg,
+                   RegWrite,
+                   ALUsrc,
+                   MemRead,
+                   MemWrite,
+                   PCSrc,
+                   operation,
+                   data_to_write,
+                   jr,
+                   jmp);
+    
+    input [5:0] opcode;
+    input [5:0] func;
+    input zero;
+    output  PCSrc;
+    output logic MemtoReg, RegWrite, ALUsrc, MemRead, MemWrite;
+    output [2:0] operation;
+    
+    //our signals
+    output logic [1:0] RegDst, data_to_write;
+    output logic jr, jmp;
+    
+    logic [1:0] ALUOp;
+    logic beq, bne;
+    
+    alu_controller ALU_CTRL(ALUOp, func, operation);
+    
+    always @(opcode, operation)
+    begin
+        {RegDst, ALUsrc, MemtoReg, RegWrite, MemRead, MemWrite, beq, bne, ALUOp, jmp, jr, data_to_write} = 15'd0;
+        case (opcode)
+            // RType instructions, slt and jr
+            6'b000000 : begin 
+				if (operation == 3'b001) 
+					{jr, jmp} = {2'b11};
+				else
+					{RegDst, RegWrite, ALUOp} = {2'b01, 1'b1, 2'b10};
+			end
+
+            // Load Word (lw) instruction
+            6'b100011 : {ALUsrc, MemtoReg, RegWrite, MemRead} = 4'b1111;
+            
+            // Store Word (sw) instruction
+            6'b101011 : {ALUsrc, MemWrite} = 2'b11;
+
+            // Branch on equal (beq) instruction
+            6'b000100 : {beq, ALUOp} = {1'b1, 2'b01};
+
+	    // Branch on not equal (bne) instruction
+            6'b000101 : {bne, ALUOp} = {1'b1, 2'b01};
+		
+            // Add immediate (addi) instruction
+            6'b001000: {RegWrite, ALUsrc} = 2'b11;
+            
+            // Jump (j) instruction
+            6'b000010: {jmp} = 1'b1;
+            
+            // Jump and link (jal) instruction
+            6'b000011: {RegWrite, RegDst, data_to_write, jmp} = {1'b1, 2'b10, 2'b01, 1'b1};
+            
+            // Set Less Than (SLT) instruction
+	    //6'b001010: {RegDst, RegWrite, ALUsrc, ALUOp,data_to_write} = {2'b01, 1'b1, 1'b1, 2'b11, 2'b10};
+
+            // Set Less Than immediate (SLTi) instruction
+            6'b001010: {RegWrite, ALUsrc, ALUOp,data_to_write} = {1'b1, 1'b1, 2'b11, 2'b10};
+        endcase
+    end
+    
+    assign PCSrc = beq ? (zero) :
+		   bne ? (~zero) :
+		   1'b0;
+    
+endmodule

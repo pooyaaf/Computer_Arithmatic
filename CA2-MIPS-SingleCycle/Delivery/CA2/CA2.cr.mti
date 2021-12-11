@@ -1,0 +1,106 @@
+E:/UT/S4/CA/CA2/reg_file.sv {1 {vlog -work work -sv -stats=none E:/UT/S4/CA/CA2/reg_file.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module RegisterFile
+
+Top level modules:
+	RegisterFile
+
+} {} {}} E:/UT/S4/CA/CA2/InstMem.sv {1 {vlog -work work -sv -stats=none E:/UT/S4/CA/CA2/InstMem.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module InstMem
+
+Top level modules:
+	InstMem
+
+} {} {}} E:/UT/S4/CA/CA2/Datapath.sv {1 {vlog -work work -sv -stats=none E:/UT/S4/CA/CA2/Datapath.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Datapath
+
+Top level modules:
+	Datapath
+
+} {} {}} E:/UT/S4/CA/CA2/SNG_EXT.sv {1 {vlog -work work -sv -stats=none E:/UT/S4/CA/CA2/SNG_EXT.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module SGN_EXT
+
+Top level modules:
+	SGN_EXT
+
+} {} {}} E:/UT/S4/CA/CA2/mux2to1.sv {1 {vlog -work work -sv -stats=none E:/UT/S4/CA/CA2/mux2to1.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module mux2to1
+
+Top level modules:
+	mux2to1
+
+} {} {}} E:/UT/S4/CA/CA2/mux3to1.sv {1 {vlog -work work -sv -stats=none E:/UT/S4/CA/CA2/mux3to1.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module mux3to1
+
+Top level modules:
+	mux3to1
+
+} {} {}} E:/UT/S4/CA/CA2/ALU.sv {1 {vlog -work work -sv -stats=none E:/UT/S4/CA/CA2/ALU.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ALU
+
+Top level modules:
+	ALU
+
+} {} {}} E:/UT/S4/CA/CA2/Controller.sv {1 {vlog -work work -sv -stats=none E:/UT/S4/CA/CA2/Controller.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Controller
+
+Top level modules:
+	Controller
+
+} {} {}} E:/UT/S4/CA/CA2/register.sv {1 {vlog -work work -sv -stats=none E:/UT/S4/CA/CA2/register.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module register
+
+Top level modules:
+	register
+
+} {} {}} E:/UT/S4/CA/CA2/ALUController.sv {1 {vlog -work work -sv -stats=none E:/UT/S4/CA/CA2/ALUController.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module alu_controller
+
+Top level modules:
+	alu_controller
+
+} {} {}} E:/UT/S4/CA/CA2/TB.sv {1 {vlog -work work -sv -stats=none E:/UT/S4/CA/CA2/TB.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module TB
+
+Top level modules:
+	TB
+
+} {} {}} E:/UT/S4/CA/CA2/Adder.sv {1 {vlog -work work -sv -stats=none E:/UT/S4/CA/CA2/Adder.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Adder
+
+Top level modules:
+	Adder
+
+} {} {}} E:/UT/S4/CA/CA2/DataMem.sv {1 {vlog -work work -sv -stats=none E:/UT/S4/CA/CA2/DataMem.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module DataMem
+
+Top level modules:
+	DataMem
+
+} {} {}} E:/UT/S4/CA/CA2/SHL2.sv {1 {vlog -work work -sv -stats=none E:/UT/S4/CA/CA2/SHL2.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module SHL2
+
+Top level modules:
+	SHL2
+
+} {} {}} E:/UT/S4/CA/CA2/MIPS.sv {1 {vlog -work work -sv -stats=none E:/UT/S4/CA/CA2/MIPS.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module MIPS
+
+Top level modules:
+	MIPS
+
+} {} {}}
